@@ -22,7 +22,7 @@ public WebDriver driver;
 	@Test
 	public void verifyTitle(){
 		
-		Assert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+		Assert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles, Coupons and More | ");
 		
 		//Assert.assertTrue(driver.getTitle().contains("Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay "));
 		
